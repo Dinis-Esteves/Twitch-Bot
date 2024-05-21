@@ -20,5 +20,5 @@ class Bot(twitchio.Client):
             message = f'Hi, {ctx.author.name}! Music Name: {title}'
             await ctx.channel.send(message)
 
-bot = Bot(token='YOUR_TOKEN', initial_channels=['#dinis_maga'])
+bot = Bot(token='YOUR_TOKEN', initial_channels=['#CHANNEL_NAME'])
 bot.run()
